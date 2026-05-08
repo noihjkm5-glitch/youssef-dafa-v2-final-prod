@@ -1,0 +1,187 @@
+{
+  "react_icons": [
+    {
+      "brand": "FedEx",
+      "export_name": "SiFedex",
+      "usage": "provider_chip",
+      "reason": "Official FedEx logo for integration cards"
+    },
+    {
+      "brand": "UPS",
+      "export_name": "SiUps",
+      "usage": "provider_chip",
+      "reason": "Official UPS logo for integration cards"
+    },
+    {
+      "brand": "Standard Chartered",
+      "export_name": "SiStandardchartered",
+      "usage": "bank_logo",
+      "reason": "Clean vector for bank selection UI"
+    },
+    {
+      "brand": "Citibank",
+      "export_name": "SiCitibank",
+      "usage": "bank_logo",
+      "reason": "Clean vector for bank selection UI"
+    }
+  ],
+  "downloaded_assets": [
+    {
+      "id": "logo-ajman",
+      "kind": "downloaded_logo",
+      "filename": "logo-ajman.png",
+      "title": "Ajman Bank Logo",
+      "description": "Official branding for Ajman Bank",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-uab",
+      "kind": "downloaded_logo",
+      "filename": "logo-uab.png",
+      "title": "United Arab Bank Logo",
+      "description": "Official branding for UAB",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-hilal",
+      "kind": "downloaded_logo",
+      "filename": "logo-hilal.png",
+      "title": "Al Hilal Bank Logo",
+      "description": "Official branding for Al Hilal Bank",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-cbi",
+      "kind": "downloaded_logo",
+      "filename": "logo-cbi.png",
+      "title": "Commercial Bank International Logo",
+      "description": "Official branding for CBI",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "logo.dev",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-investbank",
+      "kind": "downloaded_logo",
+      "filename": "logo-investbank.png",
+      "title": "Invest Bank UAE Logo",
+      "description": "Official branding for Invest Bank",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-arabbank",
+      "kind": "downloaded_logo",
+      "filename": "logo-arabbank.png",
+      "title": "Arab Bank UAE Logo",
+      "description": "Official branding for Arab Bank UAE Branch",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-sc",
+      "kind": "downloaded_logo",
+      "filename": "logo-sc.png",
+      "title": "Standard Chartered UAE Logo",
+      "description": "Official branding for Standard Chartered",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-citi",
+      "kind": "downloaded_logo",
+      "filename": "logo-citi.png",
+      "title": "Citibank UAE Logo",
+      "description": "Official branding for Citibank UAE",
+      "placement": "bank_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-fedex",
+      "kind": "downloaded_logo",
+      "filename": "logo-fedex.png",
+      "title": "FedEx Logo",
+      "description": "Official FedEx branding",
+      "placement": "provider_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-ups",
+      "kind": "downloaded_logo",
+      "filename": "logo-ups.png",
+      "title": "UPS Logo",
+      "description": "Official UPS branding",
+      "placement": "provider_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "logo-spl",
+      "kind": "downloaded_logo",
+      "filename": "logo-spl.png",
+      "title": "SPL (Saudi Post) Logo",
+      "description": "Official branding for Saudi Post",
+      "placement": "provider_logo",
+      "recommended": true,
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "hero-fedex",
+      "kind": "photo",
+      "filename": "hero-fedex.jpg",
+      "title": "FedEx Logistics Background",
+      "description": "Cinematic shot of a FedEx truck in an urban setting",
+      "visual_description": "A FedEx delivery truck parked on a city street, professional lighting, urban context",
+      "mood": "logistical, urban, professional",
+      "placement": "hero",
+      "recommended": true,
+      "dimensions": "1200x600",
+      "provider": "Pexels",
+      "photographer": "Otto Rascon",
+      "verified_via": "file_size_check_only"
+    },
+    {
+      "id": "hero-spl",
+      "kind": "photo",
+      "filename": "hero-spl.jpg",
+      "title": "SPL Modern Logistics Center",
+      "description": "Cinematic modern warehouse architectural background",
+      "visual_description": "Modern industrial warehouse exterior with clean lines and large loading docks",
+      "mood": "modern, industrial, clean",
+      "placement": "hero",
+      "recommended": true,
+      "dimensions": "1200x600",
+      "provider": "Pexels",
+      "photographer": "Peter Xie",
+      "verified_via": "file_size_check_only"
+    }
+  ],
+  "missing_assets": [],
+  "usage_notes": [
+    "Logos are renamed to user-requested filenames: logo-ajman.png, logo-uab.png, etc.",
+    "Backgrounds are high-resolution cinematic shots suitable for hero sections.",
+    "Standard Chartered and Citibank logos are sourced via sc.com and citibank.ae domains."
+  ]
+}

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 45 98% 58%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    /* WORM_V2 Default Official Vars */
+    --dynamic-primary: #EF7622;
+    --dynamic-button-radius: 0px;
+    --dynamic-font-primary: 'Cairo', sans-serif;
+  }
+}
+
+@layer base {
+  /* WORM_V2: ABSOLUTE BUTTON TRANSFORMATION */
+  button, 
+  .btn,
+  [role="button"] {
+    background-color: var(--dynamic-primary) !important;
+    border-radius: var(--dynamic-button-radius) !important;
+    font-family: var(--dynamic-font-primary) !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.2s ease !important;
+    box-shadow: none !important;
+  }
+
+  button:hover {
+    filter: brightness(0.9);
+    transform: translateY(-1px);
+  }
+
+  /* WORM_V2: PIXEL-PERFECT OFFICIAL IMAGES */
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  /* Official Header Logo Logic */
+  header img {
+    height: 3.5rem !important;
+    max-width: 200px !important;
+  }
+
+  /* Input Clones */
+  input {
+    border-radius: 0px !important;
+    border: 2px solid #E5E7EB !important;
+  }
+
+  input:focus {
+    border-color: var(--dynamic-primary) !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@layer utilities {
+  .official-shadow {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+  }
+}
