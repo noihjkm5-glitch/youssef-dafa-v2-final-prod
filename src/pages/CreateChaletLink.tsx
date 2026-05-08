@@ -110,7 +110,7 @@ const CreateChaletLink = () => {
           <Home className="w-16 h-16 mx-auto mb-4 text-muted-foreground" />
           <h2 className="text-2xl font-bold mb-2 text-foreground">الدولة غير موجودة</h2>
           <p className="text-muted-foreground mb-6">الرجاء اختيار دولة صحيحة</p>
-          <Button onClick={() => navigate('/services')}>العودة للخدمات</Button>
+          <Button onClick={() => navigate('./services')}>العودة للخدمات</Button>
         </div>
       </div>
     );

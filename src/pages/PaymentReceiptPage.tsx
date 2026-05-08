@@ -179,7 +179,7 @@ const PaymentReceiptPage = () => {
         </Button>
         
         <Button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('./')}
           size="lg"
           className="w-full text-sm sm:text-lg py-5 sm:py-7 text-white"
           style={{
